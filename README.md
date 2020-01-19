@@ -1,6 +1,12 @@
 # FGO_Bluetooth_Assistant
 This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable)
 
+To lunch this program, all you need to do is to buy a bluebooth mouse module(about 40RMB / 6USD / 800JPY). You don't need to install any third party software on your phone. (Make sure that your system is ios13 or later, Android user need Android3.0 or later)
+
+If you don't know how to connect a bluebooth mouse with your phone, just Google it!
+
+Since I'm a FGO player of Chinese server, all the image template is Chinese ver. For player in other country, you need to make template by yourself.
+
 ## 一.概述
 ### 文件概述：
 0.ReadMe.docx中有模块的淘宝地址以及使用概述
