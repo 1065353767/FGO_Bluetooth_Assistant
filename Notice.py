@@ -15,13 +15,13 @@ account_sid = '..................'
 
 client = Client(account_sid,auth_token)
 
-def sent_message(phone_number=xxxxxxxxxxx):  #填写自己的手机号码
+def sent_message(phone_number=xxxxxxxxxxx,text='【FGO】: Detect a special drop item.'):  #填写自己的手机号码
     mes = client.messages.create(
         from_='...........',  #填写在active number处获得的号码 
-        body='【FGO】: Detect a special drop item.',
+        body=text,
         to='+86'+str(phone_number)   
     )
-    print("Detect a special drop item. Message send OK")
+    print("Message send OK")
 
 
 
