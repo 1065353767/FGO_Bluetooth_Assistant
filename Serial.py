@@ -27,7 +27,7 @@ def port_open(port_no):
         else:
             print("串口打开失败")
         
- 
+  
 def port_close():
     ser.close()
     if (ser.isOpen()):
