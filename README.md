@@ -7,7 +7,7 @@ If you don't know how to connect a bluebooth mouse with your phone, just Google 
 
 I know that in Japan, it's not allowed to use a PC simulator to play FGO, but this programm use the phone's own function to realize automatic play. It's time to liberate your hands and time!
 
-Since I'm a FGO player of Chinese server, all the image template is Chinese ver. For player in other country, you need to make template by yourself.
+Since I'm a FGO player of Chinese server, all the image template is Chinese ver. For player in other country, you need to make templates by yourself.
 
 The following is the instruction of this programme, you can use translate webpage to read them.
 
