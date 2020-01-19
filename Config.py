@@ -38,4 +38,4 @@ def Config2Command(df):
         if df.loc[i,'Command']=='Card':
             FGO_func.card(df.loc[i,'Para1'])
 
-
+ 
