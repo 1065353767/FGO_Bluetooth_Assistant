@@ -145,9 +145,10 @@ def mouse_move(xy_new):
     xy_old = xy_new
 
 
-def touch(X_Position,Y_Position):
+def touch(X_Position,Y_Position,times=1):
     if(ser.isOpen()):
-        mouse_move((X_Position,Y_Position))
-        mouse_click()
+        for i in range(times):
+             mouse_move((X_Position,Y_Position))
+             mouse_click()       
     else:
         print("发送失败，串口未打开")
