@@ -1,7 +1,7 @@
 # FGO_Bluetooth_Assistant
 This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable)
 
-To lunch this program, all you need to do is to buy a bluebooth mouse module(about 40RMB / 6USD / 800JPY). You don't need to install any third party software on your phone. No need to jailbreak or root your phone.(Make sure that your system is ios13 or later, Android user need Android3.0 or later)
+To lunch this program, all you need to do is to buy a bluebooth mouse module(about 40RMB / 6USD / 800JPY) and inatall Airplayer on your PC. You don't need to install any third party software on your phone. Also no need to jailbreak or root your phone.(Make sure that your system is ios13 or later, Android user need Android3.0 or later)
 
 If you don't know how to connect a bluebooth mouse with your phone, just Google it!
 
@@ -48,10 +48,12 @@ The following is the instruction of this programme, you can use translate webpag
 
 2.安装Airplayer，分辨率调成iPhone6/6s Plus(由于本人测试环境为iPhone6s Plus，不排除其他手机模板不匹配的可能，如需使用请自行裁剪模板)
 
-3.打开FGO_func文件，在battl函数中写入战斗脚本，在main函数中配置串口以及战斗次数
+3.打开FGO_func文件，在battle函数中写入战斗脚本，在main函数中配置串口以及战斗次数
 
 4.配置手机短信提醒服务，如果不需要请删除FGO_func文件中的sent_message函数
 
 5.配置蓝牙鼠标模块，模块使用AT指令关闭自动休眠，设置一个名字即可连接(操作说明在bluebooth文件夹下)
 
-6.运行FGO_func，等待完成即可
+6.手机连接电脑的Airplayer
+
+7.运行FGO_func，等待完成即可
