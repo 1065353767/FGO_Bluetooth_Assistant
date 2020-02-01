@@ -7,10 +7,23 @@ If you don't know how to connect a bluebooth mouse with your phone, just Google 
 
 I know that in Japan, it's not allowed to use a PC simulator to play FGO, but this programm use the phone's own function to realize automatic play. It's time to liberate your hands and time!
 
-Since I'm a FGO player of Chinese server, all the image template is Chinese ver. For player in other country, you need to make templates by yourself.
+Since I'm a FGO player of Chinese server, all the image templates are Chinese ver. For player in other countries, you need to make templates by yourself.
 
 The following is the instruction of this programme, you can use translate webpage to read them.
 
+## 更新日志
+### 2020-2-1：
+1.在截图和图像识别部分加入了熔断功能，防止因小概率事件(如电话，低电量提醒等事件)导致程序死在死循环里，这里使用手机短信提醒功能来提醒人工处理。该功能参考了[hgjazhgj的脚本文件](https://github.com/hgjazhgj/FGO-py)
+
+2.FGO主函数代码轻量化重构，使用面向对象方法增强了可读性，增加了以下子功能或优化：
+
+&ensp;&ensp;2.1.在feed_apple函数前增加了延时防止因投屏延迟导致的识别错误
+
+&ensp;&ensp;2.2.find_friend函数支持自定义好友(目前自带CBA及孔明的模板)，在调用main函数时修改好友名即可(默认选CBA)
+
+&ensp;&ensp;2.3.card函数增加了随机发牌的功能(防脚本检测)
+
+3.新增了无限池抽取功能(仅仅是简单的点击功能，未使用机器视觉)
 ## 一.概述
 ### 文件概述：
 0.ReadMe.docx中有模块的淘宝地址以及使用概述
@@ -41,7 +54,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 5.翻车提醒(实测目前没翻过车hhh)
 
-6.更多功能开发中。。。。。
+6.新增无限池抽取功能(不是智能化抽取)
+
+7.更多功能开发中。。。。。
 
 ## 二.使用方法
 1.安装python3.7运行环境
