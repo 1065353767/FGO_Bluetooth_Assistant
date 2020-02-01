@@ -4,15 +4,34 @@ Created on Wed Dec 11 19:50:04 2019
 
 @author: McLaren
 """
- 
+
 import cv2 as cv
 import numpy as np
 import win32gui, win32ui, win32con, win32api
+import sys
+sys.path.append(r'F:\FGO_Project')
+from Notice import sent_message
 
-filepath = 'F:/FGO_Project/Template/'  
-    
+class Fuse:
+    def __init__(self):
+        self.value = 0
+        self.tolerant_time = 50     #截取50张图片后仍未发现对应目标则报错
+                                    #防止程序死在死循环里    
+    def increase(self):
+        self.value += 1
+        
+    def reset(self):
+        self.value = 0
+        
+    def alarm(self):
+        if self.value == self.tolerant_time:
+            sent_message(text='【FGO】: Encounter a fuse error.')
+
+fuse = Fuse()
+
 def match_template(filename,show_switch=False,err=0.9):
-    temppath = filepath + filename+'.jpg'
+    fuse.increase()    
+    temppath = 'F:/FGO_Project/Template/' + filename+'.jpg'
     img = window_capture()
     #img = cv.imread(imgpath)
     player_template = cv.imread(temppath)
@@ -35,8 +54,10 @@ def match_template(filename,show_switch=False,err=0.9):
             if k==-1:
                 cv.destroyAllWindows()
         
+        fuse.reset()
         return True, player_spot
-    else:
+    else:        
+        fuse.alarm()
         return False, 0
     
 
@@ -71,14 +92,11 @@ def window_capture():
     #img = cv.imread(filename)
     #截取出ios屏幕区域
     cropped = img[37:height-1, 1:width-1]  # 裁剪坐标为[y0:y1, x0:x1]
-    #cv.imwrite(filename, cropped)
+    #cv.imwrite('F:/FGO_Project/Template/1.jpg', cropped)
     win32gui.DeleteObject(saveBitMap.GetHandle()) #释放内存
     saveDC.DeleteDC()
     mfcDC.DeleteDC()
     win32gui.ReleaseDC(hwnd,hwndDC)
     
     return cropped
-
-
-
 
