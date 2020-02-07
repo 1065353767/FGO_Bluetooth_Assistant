@@ -1,5 +1,11 @@
 # FGO_Bluetooth_Assistant
-This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable)
+This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable). For details, see the following photos.
+
+![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.png)
+
+![image2](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/2.png)
+
+![image3](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/3.png)
 
 To lunch this program, all you need to do is to buy a bluebooth mouse module(about 40RMB / 6USD / 800JPY) and inatall Airplayer on your PC. You don't need to install any third party software on your phone. Also no need to jailbreak or root your phone.(Make sure that your system is ios13 or later, Android user need Android3.0 or later)
 
