@@ -1,6 +1,9 @@
 # FGO_Bluetooth_Assistant
 This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable). For details, see the following photos.
 
+### Important：
+Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. If you are Android player or ios player with Mac PC, I highly recommend you to use Airtest or other script on Github, because they are totally free and have more functions. This programm let those who play FGO on ios devices but only have windows PC realise automatic play, just like useing Adb to control Android devices. 
+
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
 
 ![image2](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/2.jpg)
@@ -65,7 +68,9 @@ The following is the instruction of this programme, you can use translate webpag
 7.更多功能开发中。。。。。
 
 ## 二.使用方法
-1.安装python3.7运行环境
+1.安装python3.7运行环境(建议直接安装Anaconda)
+
+&ensp;&ensp;1.1.安装opencv、numpy、twilio库(否则程序无法运行)
 
 2.安装Airplayer，分辨率调成iPhone6/6s Plus(由于本人测试环境为iPhone6s Plus，不排除其他手机模板不匹配的可能，如需使用请自行裁剪模板)
 
