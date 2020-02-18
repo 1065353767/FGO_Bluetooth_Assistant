@@ -2,7 +2,7 @@
 This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable). For details, see the following photos.
 
 ### Important：
-Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. If you are Android player or ios player with Mac PC, I highly recommend you to use Airtest or other script on Github, because they are totally free and have more functions. This programm let those who play FGO on ios devices but only have windows PC realise automatic play, just like useing Adb to control Android devices. 
+Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. If you are Android player or ios player with Mac PC, I highly recommend you to use Airtest or other scripts on Github, because they are totally free and have more functions. This programm let those who play FGO on ios devices but only have windows PC realise automatic play, just like using Adb to control Android devices. 
 
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
 
