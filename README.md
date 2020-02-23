@@ -21,6 +21,11 @@ Since I'm a FGO player of Chinese server, all the image templates are Chinese ve
 The following is the instruction of this programme, you can use translate webpage to read them.
 
 ## 更新日志
+### 2020-2-23:
+1.修复了鼠标长时间来回移动会向左上方漂移的问题
+
+2.fgo_optional_func中新增友情池抽取功能，日后将添加搓丸子的功能
+
 ### 2020-2-1：
 1.在截图和图像识别部分加入了熔断功能，防止因小概率事件(如电话，低电量提醒等事件)导致程序死在死循环里，这里使用手机短信提醒功能来提醒人工处理。该功能参考了[hgjazhgj的脚本文件](https://github.com/hgjazhgj/FGO-py)
 
