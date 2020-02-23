@@ -109,7 +109,7 @@ def mouse_move(xy_new):
         cyc_x = dx//max
         mod_x = dx%max
         for i in range(0, cyc_x):
-            X.append(255 - max)
+            X.append(256 - max)
         if mod_x != 0:
             X.append(256 - mod_x)
     if dy > 0:
@@ -128,7 +128,7 @@ def mouse_move(xy_new):
         cyc_y = dy // max
         mod_y = dy % max
         for i in range(0, cyc_y):
-            Y.append(255 - max)
+            Y.append(256 - max)
         if mod_y != 0:
             Y.append(256 - mod_y)
 
