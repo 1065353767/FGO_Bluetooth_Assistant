@@ -8,10 +8,30 @@ Created on Sun Jan 19 20:17:33 2020
 import sys
 sys.path.append(r'F:\FGO_Project') 
 import Serial
+import Base_func
+import time
 
 #无限池抽取函数
-def Infinate_pool():
+def InfinatePool():
+    Serial.port_open('com5')
     Serial.mouse_set_zero()
     Serial.mouse_move((320,360))
     for i in range(100):
         Serial.mouse_click()
+
+#友情池抽取函数
+def FriendPointSummon():
+    Serial.port_open('com5')
+    time.sleep(0.5)
+    
+    Serial.mouse_set_zero()
+
+    Serial.touch(540,472)
+        
+    while True:
+        Serial.touch(707,480,2)
+        time.sleep(1)
+        Serial.touch(647,570,8)
+    
+def MakeCraftEssenceEXCard():
+    pass
