@@ -90,7 +90,7 @@ def mouse_set_zero():
 def mouse_move(xy_new):
     global xy_old
     dx = round((xy_new[0]-xy_old[0])/1080*122/20.8*127)   #1080,607为AiPlay的分辨率
-    dy = round((xy_new[1]-xy_old[1])/607*68/11.5*127)     #122，68为手机物理大小(毫米)
+    dy = round((xy_new[1]-xy_old[1])/607*68/11.5*127)     #122，68为手机屏幕物理大小(毫米)
     X = list()                                            #20.8,11.5为发一个127，指针在XY轴移动的距离(毫米)
     Y = list()
     if dx > 0:
@@ -109,7 +109,7 @@ def mouse_move(xy_new):
         cyc_x = dx//max
         mod_x = dx%max
         for i in range(0, cyc_x):
-            X.append(256 - max)
+            X.append(255 - max)
         if mod_x != 0:
             X.append(256 - mod_x)
     if dy > 0:
@@ -128,7 +128,7 @@ def mouse_move(xy_new):
         cyc_y = dy // max
         mod_y = dy % max
         for i in range(0, cyc_y):
-            Y.append(256 - max)
+            Y.append(255 - max)
         if mod_y != 0:
             Y.append(256 - mod_y)
 
