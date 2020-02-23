@@ -22,6 +22,7 @@ The following is the instruction of this programme, you can use translate webpag
 ### 国服玩家请阅读此处
 由于国服安卓没有root检测，也可以用模拟器上，推荐直接使[用hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这个应该是最好的解决方案了。淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全。使用效果如下图所示：
 <span id="jump1"> </span>
+
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
 
 ![image2](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/2.jpg)
