@@ -70,7 +70,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 2.支持自动找310CBA，如需找其他助战需自行制作图片模板
 
-3.自定义战斗脚本和战斗次数(3T脚本基本170~190秒一关)
+3.自定义战斗脚本和战斗次数(3T脚本基本170~190秒一关)，本项目代码根据3T脚本(也可以自行增加回合数)固定来打的，并没有智能化放技能宝具的功能，需要玩家有相应练度，如果练度不够(如无拐)或想要全加成的玩家可以使用前述的[hgjazhgj的脚本文件](https://github.com/hgjazhgj/FGO-py)，但其项目仅支持安卓
 
 4.礼装掉落手机短信提醒
 
