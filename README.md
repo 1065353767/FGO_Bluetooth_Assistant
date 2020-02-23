@@ -1,5 +1,5 @@
 # FGO_Bluetooth_Assistant
-### 项目简介，请仔细阅读（中文部分请下滑）
+### 项目简介，请仔细阅读（[跳转至中文部分](https://github.com/McLaren12345/FGO_Bluetooth_Assistant#%E5%9B%BD%E6%9C%8D%E7%8E%A9%E5%AE%B6%E8%AF%B7%E9%98%85%E8%AF%BB%E6%AD%A4%E5%A4%84)）
 This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable). For details, see [the following photos.](#jump1)
 
 ### Important：
