@@ -75,7 +75,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 **注：由于Airplay功能耗电量较大，故一些辅助性功能如抽池未使用机器视觉；同时该脚本仅根据本人自身情况开发，不能满足所有玩家的需求**
 
-1.支持AP不够自动喂苹果(优先银苹果后金苹果，铜苹果功能暂未开发)
+1.支持AP不够自动喂苹果(优先银苹果后金苹果，铜苹果功能暂未开发，~应该说是不想开发？~)
 
 2.支持自动找310CBA，如需找其他助战需自行制作图片模板
 
