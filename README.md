@@ -21,7 +21,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 <span id="jump1"> </span>
 ### 国服玩家请阅读此处
-由于国服安卓没有root检测，也可以用模拟器上，推荐直接使[用hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这个应该是最好的解决方案了。淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全。使用效果如下图所示：
+由于国服安卓没有root检测，也可以用模拟器上，推荐直接使用[hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这个应该是最好的解决方案了。**淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全**。使用效果如下图所示：
 <span id="jump2"> </span>
 
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
@@ -37,7 +37,7 @@ The following is the instruction of this programme, you can use translate webpag
 2.fgo_optional_func中新增友情池抽取功能，日后将添加搓丸子的功能
 
 ### 2020-2-1：
-1.在截图和图像识别部分加入了熔断功能，防止因小概率事件(如电话，低电量提醒等事件)导致程序死在死循环里，这里使用手机短信提醒功能来提醒人工处理。该功能参考了[hgjazhgj的脚本文件](https://github.com/hgjazhgj/FGO-py)
+1.在截图和图像识别部分加入了熔断功能，防止因小概率事件(如电话，低电量提醒等事件)导致程序死在死循环里，这里使用手机短信提醒功能来提醒人工处理
 
 2.FGO主函数代码轻量化重构，使用面向对象方法增强了可读性，增加了以下子功能或优化：
 
@@ -68,6 +68,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 8.Config文件夹包含可以使用Excel编辑的战斗脚本
 ### 功能：
+
+**注：由于Airplay功能耗电量较大，故一些辅助性功能如抽池未使用机器视觉**
+
 1.支持AP不够自动喂苹果(优先银苹果后金苹果，铜苹果功能暂未开发)
 
 2.支持自动找310CBA，如需找其他助战需自行制作图片模板
@@ -80,7 +83,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 6.新增无限池抽取功能(不是智能化抽取)
 
-7.更多功能开发中。。。。。
+7.新增友情池抽取功能
+
+8.更多功能开发中。。。。。
 
 ## 二.使用方法
 0.阅读文档中的Word文件，内部有蓝牙鼠标模块的淘宝商品界面以及程序中需要一定修改的部分的简介
