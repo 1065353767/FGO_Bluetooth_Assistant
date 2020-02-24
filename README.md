@@ -1,6 +1,6 @@
 # FGO_Bluetooth_Assistant
 ### 项目简介，请仔细阅读（[跳转至中文部分](#jump1)）
-This is the V2.0 ver game assitant for Fate Grand Order (IOS &amp; Android both suitable). For details, see [the following photos.](#jump2)
+This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both suitable). For details, see [the following photos.](#jump2)
 
 ### Important：
 Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. (For players of Chinese sever:)If you are Android player or ios player with Mac PC , I highly recommend you to use Airtest or other scripts on Github(like [this](https://github.com/hgjazhgj/FGO-py)), because they are totally zero cost and have more functions. This programm let those who play FGO on iOS devices but only have Windows PC realise automatic play, just like using Adb to control Android devices. 
@@ -21,7 +21,11 @@ The following is the instruction of this programme, you can use translate webpag
 
 <span id="jump1"> </span>
 ### 国服玩家请阅读此处
-由于国服安卓没有root检测，也可以用模拟器上，推荐直接使用[hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这个应该是最好的解决方案了。**淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全**。使用效果如下图所示：
+由于国服安卓没有root检测，也可以用模拟器上，推荐直接使用[hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这应该是最好的解决方案了，成本仅40软妹币，相信对于各位氪佬来说根本微不足道（滑稽）。
+
+**淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全**。
+
+使用效果如下图所示：
 <span id="jump2"> </span>
 
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
@@ -69,7 +73,7 @@ The following is the instruction of this programme, you can use translate webpag
 8.Config文件夹包含可以使用Excel编辑的战斗脚本
 ### 功能：
 
-**注：由于Airplay功能耗电量较大，故一些辅助性功能如抽池未使用机器视觉**
+**注：由于Airplay功能耗电量较大，故一些辅助性功能如抽池未使用机器视觉；同时该脚本仅根据本人自身情况开发，不能满足所有玩家的需求**
 
 1.支持AP不够自动喂苹果(优先银苹果后金苹果，铜苹果功能暂未开发)
 
