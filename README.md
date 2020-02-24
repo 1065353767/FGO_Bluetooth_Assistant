@@ -41,11 +41,11 @@ The following is the instruction of this programme, you can use translate webpag
 
 2.FGO主函数代码轻量化重构，使用面向对象方法增强了可读性，增加了以下子功能或优化：
 
-&ensp;&ensp;2.1.在feed_apple函数前增加了延时防止因投屏延迟导致的识别错误
+>2.1.在feed_apple函数前增加了延时防止因投屏延迟导致的识别错误
 
-&ensp;&ensp;2.2.find_friend函数支持自定义好友(目前自带CBA及孔明的模板)，在调用main函数时修改好友名即可(默认选CBA)
+>2.2.find_friend函数支持自定义好友(目前自带CBA及孔明的模板)，在调用main函数时修改好友名即可(默认选CBA)
 
-&ensp;&ensp;2.3.card函数增加了随机发牌的功能(防脚本检测)
+>2.3.card函数增加了随机发牌的功能(防脚本检测)
 
 3.新增了无限池抽取功能(仅仅是简单的点击功能，未使用机器视觉)
 ## 一.概述
@@ -87,13 +87,21 @@ The following is the instruction of this programme, you can use translate webpag
 
 1.安装python3.7运行环境(建议直接安装Anaconda)
 
-&ensp;&ensp;1.1.安装`opencv`、`numpy`、`twilio`、`pywin32`、`pyserial`库(否则程序无法运行,`numpy`、`pywin32`库anaconda安装时自带)
+>1.1.安装`opencv`、`numpy`、`twilio`、`pywin32`、`pyserial`库(否则程序无法运行,`numpy`、`pywin32`库anaconda安装时自带)
 
 2.安装Airplayer，分辨率调成iPhone6/6s Plus(由于本人测试环境为iPhone6s Plus，不排除其他手机模板不匹配的可能，如需使用请自行裁剪模板)
 
-3.打开`FGO_func`文件，在`battle`函数中写入战斗脚本，在main函数中配置串口以及战斗次数
+3.打开`FGO_func`文件，在`battle`函数中写入战斗脚本，在`main`函数中配置串口以及战斗次数
+
+>3.1.英灵技能函数`character_skill`包含三个参数，分别为英灵位置、技能编号、目标英灵位置；如：想把2号位英灵的1技能加给3号位的英灵，可以写：`character_skill(2,1,3)`;想释放2号位英灵的3技能，可以写：`character_skill(2,3)`
+
+>3.2.御主技能函数`Master_skill`包含三个参数，（目前使用的是换人服，可自行修改）分别为技能编号、被替换英灵位置、替换目标英灵位置，如：想释放御主的1技能，可以写：`Master_skill(1)`，想将场上第二个英灵与后排第三个英灵交换，可以写：`Master_skill(3,2,3)`
+
+>3.3.发牌函数`card`包含一个参数，用于写要放的宝具位置，同时系统会随机发剩下两张牌，如：想释放1号位英灵的宝具，可以写：`card(1)`，系统会选择该宝具与任意两张牌
 
 4.配置手机短信提醒服务，如果不需要请删除`FGO_func`文件中的`sent_message`函数(若直接运行不报错也可以选择无视)
+
+>注：注册服务请至twilio官网
 
 5.配置蓝牙鼠标模块，模块使用AT指令关闭自动休眠，设置一个名字即可连接(操作说明以及配置软件在bluebooth文件夹下)
 
