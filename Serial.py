@@ -27,7 +27,7 @@ def port_open(port_no):
         else:
             print("串口打开失败")
         
-  
+ 
 def port_close():
     ser.close()
     if (ser.isOpen()):
@@ -77,7 +77,14 @@ def mouse_click():
     ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 0, 0, 0, 0]))
     time.sleep(0.3)
 
-
+def mouse_hold():
+    ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 1, 0, 0, 0]))
+    time.sleep(0.3)
+    
+def mouse_release():
+    ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 0, 0, 0, 0]))
+    time.sleep(0.3) 
+    
 def mouse_set_zero():
     global xy_old
     for i in range(6):
@@ -86,12 +93,19 @@ def mouse_set_zero():
 #    ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 0, 0, 127, 0]))
 #    ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 0, 0, 68, 0]))
 
-
-def mouse_move(xy_new):
+def mouse_swipe(From,To,delay=0.1):
+    mouse_move(From,key=0)
+    mouse_hold()
+    time.sleep(1.5)
+    mouse_move(To,key=1)
+    time.sleep(delay)
+    mouse_release()
+    
+def mouse_move(xy_new,key=0):
     global xy_old
-    dx = round((xy_new[0]-xy_old[0])/1080*122/20.8*127)   #1080,607为AiPlay的分辨率
-    dy = round((xy_new[1]-xy_old[1])/607*68/11.5*127)     #122，68为手机屏幕物理大小(毫米)
-    X = list()                                            #20.8,11.5为发一个127，指针在XY轴移动的距离(毫米)
+    dx = round((xy_new[0]-xy_old[0])/1080*122/20.8*127)
+    dy = round((xy_new[1]-xy_old[1])/607*68/11.5*127)
+    X = list()
     Y = list()
     if dx > 0:
         # 向着X正方向移动
@@ -140,7 +154,7 @@ def mouse_move(xy_new):
             X.append(0)
 
     for i in range(len(X)):
-        ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, 0, X[i], Y[i], 0]))
+        ser.write(serial.to_bytes([0x08, 0x00, 0xA1, 0x02, key, X[i], Y[i], 0]))
     time.sleep(0.3)
     xy_old = xy_new
 
