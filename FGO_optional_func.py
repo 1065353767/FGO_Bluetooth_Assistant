@@ -32,6 +32,16 @@ def FriendPointSummon():
         Serial.touch(707,480,2)
         time.sleep(1)
         Serial.touch(647,570,8)
-    
+
+#搓丸子        
 def MakeCraftEssenceEXCard():
-    pass
+    Serial.port_open('com5')
+    Serial.mouse_set_zero()
+    
+    while True:
+        Serial.touch(720,280)
+        time.sleep(0.5)
+        Serial.mouse_swipe((150,250),(600,600),0.5)
+        Serial.touch(990,570,3)
+        time.sleep(0.5)
+        Serial.touch(720,507,10)
