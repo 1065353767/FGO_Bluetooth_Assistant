@@ -35,6 +35,9 @@ The following is the instruction of this programme, you can use translate webpag
 ![image3](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/3.jpg)
 
 ## 更新日志
+### 2020-2-25:
+1.fgo_optional_func中新增搓丸子的功能(不是最省QP的那种方法)
+
 ### 2020-2-23:
 1.修复了鼠标长时间来回移动会向左上方漂移的问题
 
@@ -88,6 +91,8 @@ The following is the instruction of this programme, you can use translate webpag
 6.新增无限池抽取功能(不是智能化抽取)
 
 7.新增友情池抽取功能
+
+8.新增搓丸子功能(使用时需选好一张满破低星礼装，进入强化界面再运行，在筛选中关闭4、5星礼装显示)
 
 8.更多功能开发中。。。。。
 
