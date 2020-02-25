@@ -110,7 +110,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 4.配置手机短信提醒服务，如果不需要请删除`FGO_func`文件中的`sent_message`函数(若直接运行不报错也可以选择无视)
 
->注：注册服务请至twilio官网
+>注：注册服务请至twilio官网，并将自己的信息写入`Notice.py`文件中方可收到短信提醒
 
 5.配置蓝牙鼠标模块，模块使用AT指令关闭自动休眠，设置一个名字即可连接(操作说明以及配置软件在bluebooth文件夹下)
 
