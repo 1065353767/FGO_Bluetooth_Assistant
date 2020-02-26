@@ -5,7 +5,7 @@ This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both 
 ### Important：
 Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. (For players of Chinese sever:)If you are Android player or ios player with Mac PC , I highly recommend you to use Airtest or other scripts on Github(like [this](https://github.com/hgjazhgj/FGO-py)), because they are totally zero cost and have more functions. This programm let those who play FGO on iOS devices but only have Windows PC realise automatic play, just like using Adb to control Android devices. 
 
-(For players of Japanese sever:)Japanese FGO client has currently cancelled root check for Android devices, but we are not sure whether it will come back in the future. More importantly, it's not allowed to use a simulator to play FGO. So for Japanese player, whatever the device you are using, this maybe the best solution.
+(For players of Japanese sever:)Japanese FGO client has currently cancelled root check for Android devices, but we are not sure whether it will come back in the future. More importantly, it's not allowed to use an Android emulator to play FGO. So for Japanese player, whatever the device you are using, this maybe the best solution.
 
 I'm not clear about the situation of US sever, US players may decide which to use by yourself.
 
