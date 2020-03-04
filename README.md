@@ -1,6 +1,6 @@
 # FGO_Bluetooth_Assistant
 ### 项目简介，请仔细阅读（[跳转至中文部分](#jump1)）
-This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both suitable). For details, see [the following photos.](#jump2)
+This is the V2.0 ver game assitant for Fate Grand Order (iOS &amp; Android both suitable). For details, see [the following photos](#jump2), or [my video on bilibili](https://www.bilibili.com/video/av82095192?p=2).
 
 ### Important：
 Android phones can be directly controlled by a windows PC or Mac PC, but iPhone can only be controlled by a Mac PC. (For players of Chinese sever:)If you are Android player or ios player with Mac PC , I highly recommend you to use Airtest or other scripts on Github(like [this](https://github.com/hgjazhgj/FGO-py)), because they are totally zero cost and have more functions. This programm let those who play FGO on iOS devices but only have Windows PC realise automatic play, just like using Adb to control Android devices. 
@@ -13,7 +13,7 @@ To lunch this program, all you need to do is to buy a bluebooth mouse module(abo
 
 If you don't know how to connect a bluebooth mouse with your phone, just Google it!
 
-I know that in Japan, it's not allowed to use a PC simulator to play FGO, but this programm use the phone's own function to realize automatic play. It's time to liberate your hands and time!
+I know that in Japan, it's not allowed to use an Android emulator to play FGO, but this programm use the phone's own function to realize automatic play. It's time to liberate your hands and time!
 
 Since I'm a FGO player of Chinese server, all the image templates are Chinese ver. For player in other countries, you need to make templates by yourself.
 
@@ -25,7 +25,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 **淘宝上的苹果脚本基本需要越狱，即使不用越狱的也是卖家自行修改了客户端，不保证安全**。
 
-使用效果如下图所示：
+使用效果如下图所示，视频演示详见[B站视频](https://www.bilibili.com/video/av82095192?p=2)：
 <span id="jump2"> </span>
 
 ![image1](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/1.jpg)
@@ -33,6 +33,15 @@ The following is the instruction of this programme, you can use translate webpag
 ![image2](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/2.jpg)
 
 ![image3](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/3.jpg)
+
+## 联系方式
+**如有BUG，或是有新功能的idea均可反馈给我~**
+
+1.B站私信[@McLaren--](https://space.bilibili.com/13033022)
+
+2.QQ邮箱2312646564@qq.com(该QQ号为小号，请勿添加好友)
+
+3.使用Github上的issue功能
 
 ## 更新日志
 ### 2020-2-25:
