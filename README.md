@@ -47,7 +47,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 ## 更新日志
 ### 2020-3-4:
-1.删除了Woed版的ReadMe，重新编写了PDF版的ReadMe。使用教程更加详细易懂。
+1.删除了Word版的ReadMe，重新编写了PDF版的ReadMe。使用教程更加详细易懂。
 
 ### 2020-2-25:
 1.fgo_optional_func中新增搓丸子的功能(不是最省QP的那种方法)
