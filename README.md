@@ -37,7 +37,7 @@ The following is the instruction of this programme, you can use translate webpag
 ## 联系方式
 **如有BUG，或是有新功能的idea均可反馈给我~**
 
-**本人不提供使用教学服务，具体的使用方法请阅读文末的内容以及Word版的ReadMe文件。想要客服一对一教学的建议去淘宝**
+**本人不提供使用教学服务，具体的使用方法请阅读文末的内容以及PDF版的ReadMe文件。想要客服一对一教学的建议去淘宝**
 
 1.B站私信[@McLaren--](https://space.bilibili.com/13033022)
 
@@ -46,6 +46,9 @@ The following is the instruction of this programme, you can use translate webpag
 3.使用Github上的issue功能
 
 ## 更新日志
+### 2020-3-4:
+1.删除了Woed版的ReadMe，重新编写了PDF版的ReadMe。使用教程更加详细易懂。
+
 ### 2020-2-25:
 1.fgo_optional_func中新增搓丸子的功能(不是最省QP的那种方法)
 
