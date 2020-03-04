@@ -34,16 +34,6 @@ The following is the instruction of this programme, you can use translate webpag
 
 ![image3](https://github.com/McLaren12345/FGO_Bluetooth_Assistant/blob/master/images_for_Readme/3.jpg)
 
-## 联系方式
-**如有BUG，或是有新功能的idea均可反馈给我~**
-
-**本人不提供使用教学服务，具体的使用方法请阅读文末的内容以及PDF版的ReadMe文件。想要客服一对一教学的建议去淘宝**
-
-1.B站私信[@McLaren--](https://space.bilibili.com/13033022)
-
-2.QQ邮箱2312646564@qq.com(该QQ号为小号，请勿添加好友)
-
-3.使用Github上的issue功能
 
 ## 更新日志
 ### 2020-3-4:
