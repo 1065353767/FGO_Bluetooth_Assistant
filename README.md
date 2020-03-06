@@ -101,9 +101,9 @@ The following is the instruction of this programme, you can use translate webpag
 8.更多功能开发中。。。。。
 
 ## 二.使用方法
-0.阅读文档中的Word文件，内部有蓝牙鼠标模块的淘宝商品界面以及程序中需要一定修改的部分的简介
+0.阅读文档中的PDF文件，内部有蓝牙鼠标模块的淘宝商品界面以及程序中需要一定修改的部分的简介
 
-1.安装python3.7运行环境(建议直接安装Anaconda)
+1.安装python3.7运行环境(建议直接安装[Anaconda](https://www.anaconda.com/distribution/))
 
 >1.1.安装`opencv`、`numpy`、`twilio`、`pywin32`、`pyserial`库(否则程序无法运行,`numpy`、`pywin32`库anaconda安装时自带)
 
