@@ -36,6 +36,19 @@ The following is the instruction of this programme, you can use translate webpag
 
 
 ## 更新日志
+### 2020-3-11:
+1.新增了Smart_Battle.py文件，提供了3个实现宝具、卡牌颜色以及可用技能的检测函数(API)：
+
+>1.1 GetAvailableTreasureDevice()函数，检测可用的宝具，返回可用的宝具位置列表，如[1,2]表示1、2号位英灵的宝具可用（需在选卡界面检测）；
+
+>1.2 GetCardIndex()函数，用于获取卡牌颜色，返回五张卡颜色值的列表，如['Art','Buster',...,'Quick']；
+
+>1.3 GetAvailableSkillIndex()函数，获取英灵的可用技能，返回列表：[[1,2],[3],[]],表示1号位英灵的1、2技能可用；2号位英灵3技能可用，3号位英灵无可用技能。
+
+**以上3个API可以用作智能化战斗的底层检测函数，配合相应的上层逻辑可以实现诸如色卡连携、自动释放技能宝具等高级功能。由于本人box练度足够且本项目是以刷无限池为目的开发的，故不想进一步开发智能化战斗的算法，有兴趣的玩家可以自行研究。**
+
+2.删除了鸡肋的Config脚本读取功能，修改战斗脚本直接从FGO_func.py里的battle函数里修改即可。
+
 ### 2020-3-4:
 1.删除了Word版的ReadMe，重新编写了PDF版的ReadMe。使用教程更加详细易懂。
 
