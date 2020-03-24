@@ -36,6 +36,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 
 ## 更新日志
+### 2020-3-24:
+1.修复了ReadMe.pdf中模块进入AT指令方法中的错误表达。
+
 ### 2020-3-11:
 1.新增了Smart_Battle.py文件，提供了3个实现宝具、卡牌颜色以及可用技能的检测函数(API)：
 
