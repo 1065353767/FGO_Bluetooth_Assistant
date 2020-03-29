@@ -77,7 +77,7 @@ The following is the instruction of this programme, you can use translate webpag
 3.新增了无限池抽取功能(仅仅是简单的点击功能，未使用机器视觉)
 ## 一.概述
 ### 文件概述：
-0.`ReadMe.docx`中有模块的淘宝地址以及使用概述
+0.`ReadMe.pdf`中有模块的淘宝地址以及使用概述
 
 1.`Base_func.py`中定义了游戏图像截取以及模板匹配函数
 
@@ -87,13 +87,12 @@ The following is the instruction of this programme, you can use translate webpag
 
 4.`Notice.py`定义了手机短信通知的函数(需注册相关服务才能使用)
 
-5.`Config.py`定义了csv脚本读取函数
+5.`Config.py`定义了csv脚本读取函数,**(由于该功能过于鸡肋，本文件已废弃)**
 
 6.Bluebooth文件夹包含蓝牙鼠标模块的使用方法
 
 7.Template文件夹包含识别用的图片模板
 
-8.Config文件夹包含可以使用Excel编辑的战斗脚本
 ### 功能：
 
 **注：由于Airplay功能耗电量较大，故一些辅助性功能如抽池未使用机器视觉；同时该脚本仅根据本人自身情况开发，不能满足所有玩家的需求**
