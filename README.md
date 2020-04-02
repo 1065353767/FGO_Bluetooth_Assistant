@@ -20,6 +20,12 @@ Since I'm a FGO player of Chinese server, all the image templates are Chinese ve
 The following is the instruction of this programme, you can use translate webpage to read them.
 
 <span id="jump1"> </span>
+### 系统兼容性警告！
+近日，有玩家反馈蓝牙鼠标设备在iOS13.3系统上运行正常，但升级13.4后出现鼠标移动方向混乱的情况。同时全面屏手机因为四周为弧形而非直角，没有典型的零点，导致自行定位、修改代码困难。故这里给出系统兼容性建议：建议使用iPhone6s Plus、iPhone7(全型号)、iPhone8(全型号)等矩形屏幕手机，同时iOS13系统版本不超过13.3！本人意向购买今年秋季发布的5G+双卡双待新iPhone，对于系统兼容的研究日后会继续跟进，也欢迎爱钻研的小伙伴一起讨论。
+
+### 如何联系到我：
+建议[B站私信联系](https://space.bilibili.com/13033022)。同时本人不会对诸如Python编程、代码修改等个人问题进行解答，仅接受bug反馈以及优化建议等内容的讨论。
+
 ### 国服玩家请阅读此处
 由于国服安卓没有root检测，也可以用模拟器上，推荐直接使用[hgjazhgjd大佬的脚本文件](https://github.com/hgjazhgj/FGO-py)；如果你是iOS用户同时也有Mac电脑，可以选择使用网易开发的Airtest来进行控制，其代码兼容python，可以自行探索编程；对于没有Mac的iOS用户，同时又不想越狱的，这应该是最好的解决方案了，成本仅40软妹币，相信对于各位氪佬来说根本微不足道（滑稽）。
 
