@@ -93,11 +93,15 @@ The following is the instruction of this programme, you can use translate webpag
 
 4.`Notice.py`定义了手机短信通知的函数(需注册相关服务才能使用)
 
-5.`Config.py`定义了csv脚本读取函数,**(由于该功能过于鸡肋，本文件已废弃)**
+5.`Config.py`~定义了csv脚本读取函数~,**(由于该功能过于鸡肋，本文件已废弃)**
 
-6.Bluebooth文件夹包含蓝牙鼠标模块的使用方法
+6.`FGO_optional_func`定义了一些非核心辅助性的功能，如：抽池等
 
-7.Template文件夹包含识别用的图片模板
+7.`Smart_Battle`定义了一些智能化战斗的底层识图API
+
+8.Bluebooth文件夹包含蓝牙鼠标模块的使用方法
+
+9.Template文件夹包含识别用的图片模板
 
 ### 功能：
 
