@@ -42,6 +42,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 
 ## 更新日志
+### 2020-4-27：
+1.修改了FGO_fuc.py文件中的第114、117行，将函数检测元素从`Master_face`改为`Attack_button`，为2月1日代码轻量化重构时的遗漏修改。
+
 ### 2020-3-24:
 1.修复了ReadMe.pdf中模块进入AT指令方法中的错误表达。
 
@@ -52,7 +55,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 >1.2 GetCardIndex()函数，用于获取卡牌颜色，返回五张卡颜色值的列表，如['Art','Buster',...,'Quick']；
 
->1.3 GetAvailableSkillIndex()函数，获取英灵的可用技能，返回列表：[[1,2],[3],[]],表示1号位英灵的1、2技能可用；2号位英灵3技能可用，3号位英灵无可用技能。
+>1.3 GetAvailableSkillIndex()函数，获取英灵的可用技能，返回列表，如[[1,2],[3],[]],表示1号位英灵的1、2技能可用；2号位英灵3技能可用，3号位英灵无可用技能。
 
 **以上3个API可以用作智能化战斗的底层检测函数，配合相应的上层逻辑可以实现诸如色卡连携、自动释放技能宝具等高级功能。由于本人box练度足够且本项目是以刷无限池为目的开发的，故不想进一步开发智能化战斗的算法，有兴趣的玩家可以自行研究。**
 
