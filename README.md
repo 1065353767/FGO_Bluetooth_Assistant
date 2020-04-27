@@ -130,7 +130,7 @@ The following is the instruction of this programme, you can use translate webpag
 
 1.安装python3.7运行环境(建议直接安装[Anaconda](https://www.anaconda.com/distribution/))
 
->1.1.安装`opencv`、`numpy`、`twilio`、`pywin32`、`pyserial`库(否则程序无法运行,`numpy`、`pywin32`库anaconda安装时自带)
+>1.1.安装`opencv`、`numpy`、`twilio`、`pywin32`、`pyserial`库(否则程序无法运行,`numpy`、`pywin32`库anaconda安装时自带，还有一些底层的函数库软件安装时也会自行安装，这里不再赘述)
 
 2.安装Airplayer，分辨率调成iPhone6/6s Plus(由于本人测试环境为iPhone6s Plus，不排除其他手机模板不匹配的可能，如需使用请自行裁剪模板)
 
