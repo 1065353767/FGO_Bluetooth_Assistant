@@ -34,41 +34,7 @@ def port_close():
         print("串口关闭失败")
     else:
         print("串口关闭成功")
- 
-def send(Position0,Position1):
-    if (ser.isOpen()):
-        Position0=round(Position0*100/1080)
-        Position1=round(Position1*100/607)
-        if Position0<16:
-            Position0 = '0'+hex(Position0)[2:]
-        else:
-            Position0 = hex(Position0)[2:]
-        if Position1<16:
-            Position1 = '0'+hex(Position1)[2:]
-        else:
-            Position1 = hex(Position1)[2:]    
-            
-        send_data = Position0+Position1+'FF'
-        #ser.write(send_data.encode('utf-8'))  #utf-8 编码发送
-        ser.write(bytes.fromhex(send_data))  #Hex发送
-        #print("发送成功",send_data)
-    else:
-        print("发送失败",'像素位置：{}%,{}%'.format(round(Position0*100/1080),round(Position1*100/607)))
-    wait_for_flag()
 
-def wait_for_flag():
-    time.sleep(1)     #sleep() 与 inWaiting() 最好配对使用
-    num=ser.inWaiting()
-    torient_time = 0
-    while True:
-        torient_time+=1
-        if (ser.read(num)==b'\xff')or(torient_time==25):
-            break
-        else:
-            time.sleep(1)
-            num=ser.inWaiting()
-    #time.sleep(1)
-#bytes.fromhex(hex(99)[2:])
 
 xy_old=(0,0)    #投屏界面的像素位置(1080,607)
 
