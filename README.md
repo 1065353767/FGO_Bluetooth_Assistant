@@ -42,6 +42,9 @@ The following is the instruction of this programme, you can use translate webpag
 
 
 ## 更新日志
+### 2020-5-1:
+1.优化了FGO_fuc.py文件中enter_battle函数，在没有检测到“上次执行”标志的情况下，默认点击界面上最上面的关卡。
+
 ### 2020-4-27：
 1.修改了FGO_fuc.py文件中的第114、117行，将函数检测元素从`Master_face`改为`Attack_button`，为2月1日代码轻量化重构时的遗漏修改。
 
