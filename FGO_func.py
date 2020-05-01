@@ -42,13 +42,15 @@ Current_state = state()
 def enter_battle():    
     Current_state.HasBackToMenu()
         #确认已经返回菜单界面
-    Flag,Position = Base_func.match_template('LastOrder_sign') 
+    Flag,Position = Base_func.match_template('LastOrder_sign',err=0.85) 
     if Flag:
         Serial.touch(Position[0]+230,Position[1]+50)       
         print(' ')
         print(' Enter battle success')
     else:
-        print(' Enter battle fail')
+        Serial.touch(791,155)
+        print(' ')
+        print(' Enter battle by clicking the default position')
     
 def apple_feed(): 
     time.sleep(1.5)
