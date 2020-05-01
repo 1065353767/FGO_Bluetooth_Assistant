@@ -29,7 +29,7 @@ class Fuse:
 
 fuse = Fuse()
 
-def match_template(filename,show_switch=False,err=0.9):
+def match_template(filename,show_switch=False,err=0.85):
     fuse.increase()    
     temppath = 'F:/FGO_Project/Template/' + filename+'.jpg'
     img = window_capture()
